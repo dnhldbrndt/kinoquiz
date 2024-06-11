@@ -1,0 +1,67 @@
+.App {
+    text-align: center;
+    font-family: Arial;
+}
+
+.container {
+
+max-width: 500px;
+margin: auto;
+}
+
+.selected {
+    background: white !important;
+    color: red !important;
+
+}
+
+h1 {
+    color: #73b0dc;
+    font-family: Verdana,Geneva,sans-serif; ;
+    font-size: 64px;
+}
+
+h2 {
+    color: #73b0dc;
+}
+.options {
+    padding: 12px;
+    border: 3px ;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #00bff3;
+    color: white;
+    font-weight: bold;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+ul li {
+    margin: 5px;
+
+}
+
+.btn {
+	padding: 0.5rem 0.8rem; 
+    border: 2px solid #3042ae; 
+    background-color: #1c2d94; 
+    color: white; 
+    border-radius: 4px; 
+}
+.btn:hover { 
+    cursor: pointer; 
+} 
+
+body {
+    display: flex;
+    justify-content: center;
+    color: #dd7772;
+    font-family: 'Segoe UI',;
+    font-size: 18px;
+    background-color: #014d81;
+}
